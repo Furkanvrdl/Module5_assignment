@@ -1,1 +1,8 @@
+Accessibility Review Summary – ESPN.com
+
+ESPN’s website provides a visually rich experience on both desktop and mobile, with responsive layouts and intuitive navigation. However, from an accessibility perspective, there are notable concerns. On the desktop version, many interactive elements (like live score tickers, carousels, and menus) lack appropriate ARIA roles or keyboard focus indicators. Users relying on screen readers or keyboard navigation may find it difficult to interact with the top navigation bar or dropdowns, as they are not fully accessible without a mouse. Image carousels often rotate automatically without pause controls or descriptive alternative text, which can cause cognitive overload.
+
+On mobile, ESPN’s site adapts well visually, but accessibility issues persist. The hamburger menu opens via JavaScript and is not clearly announced to screen readers. Furthermore, contrast issues exist in some parts of the site — light gray text on white backgrounds — which fails WCAG contrast guidelines. Headings are often skipped or nested improperly, impacting logical reading order for assistive tech. Despite the site's popularity and responsive design, improvements like proper `aria-labels`, keyboard navigation support, and consistent heading structure would significantly enhance its accessibility for all users.
+
+Overall, while ESPN delivers excellent content and design responsiveness, it falls short in fully meeting Web Content Accessibility Guidelines (WCAG 2.1), particularly in keyboard and screen reader usability. These gaps suggest a need for a more inclusive design approach to serve users with disabilities.
 
