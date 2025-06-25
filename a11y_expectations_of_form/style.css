@@ -1,0 +1,70 @@
+body{
+    background-color:#f7f9fc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    text-align: center;
+    font-weight: bold;
+    background-color:  #2c3e50;
+    color: #f7f9fc;
+    padding: 10px;
+}
+form{
+    max-width: 600px;
+    margin: 2rem auto;
+    
+    display: block;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,2);
+}
+label{
+    display: block;
+    margin-top: 1rem; 
+    font-weight: bold;
+}
+input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 0.3rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+        input[type="checkbox"]{
+            margin: 0.8rem 0.5rem 0 0;
+        }
+textarea {
+    resize: vertical;
+    }
+
+    input[type="submit"] {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+input[type="submit"]:hover {
+        background-color: #2980b9;
+    }
+
+    /* All form controls have unique id attributes
+
+All <label> tags are correctly linked to inputs using for="id"
+
+The select dropdown had a duplicate name attribute – fixed it
+
+Added aria-required="true" to required fields
+
+Improved form structure for screen readers */
