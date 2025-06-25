@@ -1,1 +1,8 @@
+Accessibility Review Summary for "Media Query Lab"
+
+The HTML document was evaluated for accessibility (a11y) using manual inspection and WCAG 2.1 guidelines. The original version had a solid structure but lacked some key accessibility features. These were addressed by adding ARIA roles (like `role="navigation"`, `role="main"`, and `role="contentinfo"`) to landmark sections of the page to help screen readers navigate efficiently. Descriptive `aria-label` attributes were added where needed, such as for navigation and the benefits section. 
+
+All images now include more descriptive `alt` text to convey context to users who rely on screen readers. Sections like "Featured Packages" were given `aria-labelledby` links to their corresponding headings, improving semantic structure and screen reader flow. The navigation and main content areas were clearly separated using roles, and redundant or unclear alternative text (like “checkmark”) was clarified to “Checkmark icon.” These changes enhance usability for assistive technologies and support better keyboard navigation, visual clarity, and screen reader interaction.
+
+Overall, the page now meets basic accessibility compliance. Future improvements could include keyboard focus indicators, skip-to-content links, and validation with tools like WAVE or Lighthouse to ensure color contrast and ARIA practices are fully optimized.
 
