@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    window.onload = function() {
+      alert("Welcome! Please fill out the contact form carefully.");
+    };
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Form</h1>
+  </header>
+
+  <form action="" method="POST" aria-label="Contact Form">
+    
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" aria-required="true" required>
+
+    <label for="city">City:</label>
+    <input type="text" name="city" id="city" placeholder="Enter your city" aria-required="true" required>
+
+    <label for="zipcode">Zip code:</label>
+    <input type="text" name="zipcode" id="zipcode" placeholder="Enter your zip code" aria-required="true" required>
+
+    <div>
+      <input type="checkbox" name="Confirmed" id="waiver">
+      <label for="waiver">Disclaimer acknowledgement</label>
+    </div>
+
+    <label for="contactReason">Reason for Contact:</label>
+    <select name="contactReason" id="contactReason" aria-required="true" required>
+      <option value="">--Please choose an option--</option>
+      <option value="general">General Inquiry</option>
+      <option value="support">Technical Support</option>
+      <option value="feedback">Feedback</option>
+      <option value="career">Career Opportunities</option>
+    </select>
+
+    <label for="details">Details:</label>
+    <textarea name="details" id="details" rows="5" cols="60" placeholder="Please type your request here" aria-required="true" required></textarea>
+
+    <input type="submit" value="Send">
+
+  </form>
+
+  <footer>
+    <p>
+      <a href="mailto:travel@medvacations.com">travel@medvacations.com</a>
+    </p>
+    <p>
+      &copy; 2023
+    </p>
+  </footer>
+</body>
+</html>
